@@ -122,7 +122,7 @@
     "@polymer/iron-iconset-svg": "^3.0.1",
     "@types/google.accounts": "^0.0.15",
     "@types/google.visualization": "^0.0.74",
-    "lit": "^3",
+    "lit": "^3.2.0",
     "node-fetch": ">=3.3.2",
     "page": "^1.11.6",
     "urijs": ">=1.19.11",
