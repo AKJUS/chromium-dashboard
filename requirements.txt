@@ -18,7 +18,7 @@ google-cloud-logging==3.6.0
 google-cloud-secret-manager==2.16.2
 google-cloud-storage==2.1.0
 google-auth==1.31.0
-requests==2.32.0
+requests==2.32.2
 redis==4.4.4
 fakeredis==2.26.1
 Flask==2.3.2
@@ -39,3 +39,5 @@ pillow==11.0.0
 ./gen/py/chromestatus_openapi
 ./gen/py/webstatus_openapi
 types-python-dateutil==2.9.0.20240821
+setuptools>=78.1.1 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
